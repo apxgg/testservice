@@ -1,4 +1,4 @@
-FROM microservice-base:0.1.0 AS build
+FROM kworker1:30001/microservice-base:0.1.0 AS build
 
 #Build Service
 COPY Makefile ./
